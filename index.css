@@ -1,0 +1,41 @@
+.game {
+width: 900px;
+margin: auto;
+
+}
+
+.dashboard {
+    background-color: #b96a6a;
+    text-align: center;
+    color: white;
+    padding: 8px 0;
+    font-weight: 800;
+    border-radius: 15px;
+    font-size: 40px;
+}
+
+.boxes {
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box {
+    width: 285px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 140px;
+    margin: 5px 5px 5px 0;
+    background-color: #b96a6a;
+    height: 285px;
+    line-height: 285px;
+}
+.box:hover {
+    background-color: black;
+    cursor: pointer;
+}
+span {
+color: yellow;
+}
